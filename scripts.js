@@ -47,16 +47,10 @@ function toggleItems(event) {
 	}
 }
 
-function removeItems(element) {
-	if (element.target.tagName === 'LI'){
-		element.target.classList.remove()
-	}
-}
-
 button.addEventListener('click', addListAfterClick);
 input.addEventListener('keydown', enterButton);
 ul.addEventListener('click' , toggleItems);
-but.addEventListener('click' , removeItems);
+
 
 
 
